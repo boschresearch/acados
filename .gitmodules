@@ -1,41 +1,34 @@
-[submodule "hpmpc"]
-	path = external/hpmpc
-	url = https://github.com/giaf/hpmpc.git
-	branch = stable
 [submodule "blasfeo"]
-	path = external/blasfeo
+	path = acados/external/blasfeo
 	url = https://github.com/giaf/blasfeo.git
-[submodule "qpdunes"]
-	path = external/qpdunes
-	url = https://github.com/acados/qpDUNES-dev.git
-[submodule "catch"]
-	path = external/catch
-	url = https://github.com/philsquared/Catch.git
-# [submodule "swig"]
-# 	path = external/swig
-# 	url = https://github.com/jaeandersson/swig
-# 	branch = matlab
-# 	ignore = dirty
-[submodule "hpipm"]
-	path = external/hpipm
-	url = https://github.com/giaf/hpipm.git
-	branch = stable
-[submodule "qpoases"]
-	path = external/qpoases
-	url = https://github.com/acados/qpOASES.git
-[submodule "external/osqp"]
-	path = external/osqp
-	url = https://github.com/oxfordcontrol/osqp.git
-	branch = develop
 [submodule "interfaces/acados_template/tera_renderer"]
-	path = interfaces/acados_template/tera_renderer
+	path = acados_template/tera_renderer
 	url = https://github.com/acados/tera_renderer
-[submodule "external/jsonlab"]
-	path = external/jsonlab
-	url = https://github.com/fangq/jsonlab.git
 [submodule "examples/acados_python/tests/test_data"]
-	path = examples/acados_python/tests/test_data
+	path = acados_template/examples/tests/test_data
 	url = https://github.com/acados/test_data
-[submodule "external/daqp"]
-	path = external/daqp
+
+[submodule "acados/external/catch"]
+	path = acados/external/catch
+	url = https://github.com/catchorg/Catch2.git
+[submodule "acados/external/daqp"]
+	path = acados/external/daqp
 	url = https://github.com/darnstrom/daqp.git
+[submodule "acados/external/hpipm"]
+	path = acados/external/hpipm
+	url = https://github.com/giaf/hpipm.git
+[submodule "acados/external/hpmpc"]
+	path = acados/external/hpmpc
+	url = https://github.com/giaf/hpmpc.git
+[submodule "acados/external/jsonlab"]
+	path = acados/external/jsonlab
+	url = https://github.com/fangq/jsonlab.git
+[submodule "acados/external/osqp"]
+	path = acados/external/osqp
+	url = https://github.com/oxfordcontrol/osqp.git
+[submodule "acados/external/qpdunes"]
+	path = acados/external/qpdunes
+	url = https://github.com/acados/qpDUNES-dev.git
+[submodule "acados/external/qpoases"]
+	path = acados/external/qpoases
+	url = https://github.com/acados/qpOASES.git
